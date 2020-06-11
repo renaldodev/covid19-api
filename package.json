@@ -1,0 +1,27 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.3",
+    "date-and-time": "0.13.1",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "node-cron": "2.0.3",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "covid-19",
+    "coronavirus",
+    "node",
+    "api"
+  ]
+}
