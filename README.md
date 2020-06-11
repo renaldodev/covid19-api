@@ -34,8 +34,8 @@ The REST API to the example app is described below.
     Content-Type: application/json
     Content-Length: 2
 
-    [
-      {
+    
+     [{
     "country": "Hong Kong",
     "confirmed": "1,108",
     "confirmedChangeToday": "0",
@@ -45,8 +45,8 @@ The REST API to the example app is described below.
     "tests": "241,992",
     "active": "53",
     "recovered": "1,051"
-  },
-  {
+    },
+    {
     "country": "Macao",
     "confirmed": "45",
     "confirmedChangeToday": "0",
@@ -56,8 +56,7 @@ The REST API to the example app is described below.
     "tests": "Unknown",
     "active": "Unknown",
     "recovered": "45"
-  },
-    ]
+    }]
 
 
 ## Get a specific Country
@@ -87,7 +86,7 @@ The REST API to the example app is described below.
     "tests": "10,000",
     "active": "69",
     "recovered": "40"
-  }
+    }
 
 ## Get a non-existent country
 
@@ -137,4 +136,20 @@ The REST API to the example app is described below.
     "tests": "104,557,225",
     "active": "3,341,495",
     "recovered": "3,527,530"
-   }
+     }
+   ## Crowler source
+    https://ncov2019.live/
+   
+   ## Built With
+
+* [cheerio](https://cheerio.js.org/) 
+* [express](https://expressjs.com/)
+
+## Authors
+
+**Renaldo José** - renaldomateus77.dev@gmail.com -instagram [@renaldodev](https://www.instagram.com/renaldo.rj) - twitter [@renaldodev](https://twitter.com/renaldodev)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
