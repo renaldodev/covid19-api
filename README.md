@@ -138,7 +138,7 @@ The REST API to the example app is described below.
     "recovered": "3,527,530"
      }
    ## Crowler source
-    *[site](https://ncov2019.live/)
+   [site](https://ncov2019.live/)
    
    ## Built With
 
