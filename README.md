@@ -109,7 +109,7 @@ The REST API to the example app is described below.
 
 
 
-## Get list global cases
+## Get global cases
 
 ### Request
 
