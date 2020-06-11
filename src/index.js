@@ -12,4 +12,11 @@ cron.schedule("0 0 * * * ", () => {
   crowler().then(data => save(null, data));
 });
 
+app.use(function(req, res, next) {
+  const err = new Error("Not Found");
+  err.status = 404;
+  res.json({ status: 404, reason: err.message });
+  next();
+});
+
 app.listen(process.env.PORT || 3000, console.log("app is running"));
